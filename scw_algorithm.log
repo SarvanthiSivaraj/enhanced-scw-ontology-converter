@@ -1,0 +1,389 @@
+2025-07-29 21:56:22,962 - __main__ - INFO - SCW Algorithm starting with 2 input files...
+2025-07-29 21:56:22,962 - __main__ - INFO - Auto-configured for SMALL scale processing
+2025-07-29 21:56:22,962 - __main__ - INFO - Starting SCW Algorithm with 2 input files...
+2025-07-29 21:56:22,962 - __main__ - INFO - Configuration: {
+  "similarity_rel_weight": 0.5,
+  "similarity_prop_weight": 0.25,
+  "similarity_sig_weight": 0.15,
+  "similarity_lex_weight": 0.1,
+  "similarity_threshold": 0.2,
+  "bridge_threshold": 0.25,
+  "max_bridges_per_concept": 8,
+  "enable_compensation_bridges": true,
+  "processing_mode": "memory",
+  "batch_size": null,
+  "enable_reasoning_validation": true,
+  "scale": "SMALL"
+}
+2025-07-29 21:56:22,962 - __main__ - INFO - Phase 1: Attempting to load 2 ontologies...
+2025-07-29 21:56:22,962 - __main__ - INFO - Loading ontology 1/2: father from father.owl
+2025-07-29 21:56:22,973 - __main__ - INFO -   Loaded: 3 concepts, 8 relationships, 0 explicit equivalences
+2025-07-29 21:56:22,973 - __main__ - INFO - Loading ontology 2/2: uncle from uncle.owl
+2025-07-29 21:56:22,978 - __main__ - INFO -   Loaded: 2 concepts, 21 relationships, 0 explicit equivalences
+2025-07-29 21:56:22,978 - __main__ - INFO - Phase 1 complete: Successfully loaded 2 ontologies. Skipped 0 unparsable files.
+2025-07-29 21:56:22,978 - __main__ - INFO - 5 total concepts, 29 total relationships, 0 explicit equivalences found in loaded files.
+2025-07-29 21:56:22,978 - __main__ - INFO - Phase 2: Creating comprehensive concept catalog...
+2025-07-29 21:56:22,978 - __main__ - INFO -   Cataloging concepts from father...
+2025-07-29 21:56:25,401 - __main__ - INFO -   Cataloging concepts from uncle...
+2025-07-29 21:56:25,401 - __main__ - INFO - Phase 2 complete: Cataloged 3 unique concept labels
+2025-07-29 21:56:25,401 - __main__ - INFO - Phase 3: Detecting cross-ontology matches...
+2025-07-29 21:56:25,417 - __main__ - INFO - Phase 3 complete:
+2025-07-29 21:56:25,417 - __main__ - INFO -   - Full cross-ontology matches: 2
+2025-07-29 21:56:25,417 - __main__ - INFO -   - Partial cross-ontology matches: 0
+2025-07-29 21:56:25,418 - __main__ - INFO -   - Unique concepts: 1
+2025-07-29 21:56:25,418 - __main__ - INFO -   - Explicit equivalences found (conceptual merge): 0
+2025-07-29 21:56:25,418 - __main__ - INFO - Phase 4: Creating unified namespace...
+2025-07-29 21:56:25,418 - __main__ - INFO - Phase 4 complete: Created 3 unified concepts
+2025-07-29 21:56:25,418 - __main__ - INFO - Phase 5: Discovering cross-ontology relationships...
+2025-07-29 21:56:25,418 - __main__ - INFO - Phase 5 complete: Discovered 2 relationships
+2025-07-29 21:56:25,418 - __main__ - INFO - Phase 6: Creating bridges and compensation relationships...
+2025-07-29 21:56:25,418 - __main__ - INFO - Phase 6 complete: Created 2 semantic bridges, 0 compensation bridges (Total: 2)
+2025-07-29 21:56:25,418 - __main__ - INFO - Phase 7: Generating unified OWL graph...
+2025-07-29 21:56:25,428 - __main__ - INFO - Phase 7 complete: Generated OWL with 147 triples
+2025-07-29 21:56:25,428 - __main__ - INFO - Phase 8: Saving and validating unified ontology...
+2025-07-29 21:56:25,434 - __main__ - INFO - Unified ontology saved to: unified_output.owl
+2025-07-29 21:56:25,434 - __main__ - INFO - Running OWL reasoning for enhanced validation via external HermiT process...
+2025-07-29 21:56:25,539 - __main__ - INFO - Invoking HermiT: java -jar C:\Users\srsar\OneDrive\Documents\Desktop\multiToSingleOwl\reasoners\HermiT.jar unified_output.owl
+2025-07-29 21:56:25,717 - __main__ - INFO - HermiT reasoner execution complete. Output logged to hermit_output_b7a73a45455243d9adf015894e6dc775.txt
+2025-07-29 21:56:25,722 - __main__ - INFO - Validation report saved to: unified_output.validation.json
+2025-07-29 21:56:25,722 - __main__ - INFO - SCW Algorithm completed successfully!
+2025-07-29 22:22:38,260 - __main__ - INFO - SCW Algorithm starting with 2 input files...
+2025-07-29 22:22:38,260 - __main__ - INFO - Auto-configured for SMALL scale processing
+2025-07-29 22:22:38,260 - __main__ - INFO - Starting SCW Algorithm with 2 input files...
+2025-07-29 22:22:38,260 - __main__ - INFO - Configuration: {
+  "similarity_rel_weight": 0.5,
+  "similarity_prop_weight": 0.25,
+  "similarity_sig_weight": 0.15,
+  "similarity_lex_weight": 0.1,
+  "similarity_threshold": 0.2,
+  "bridge_threshold": 0.25,
+  "max_bridges_per_concept": 8,
+  "enable_compensation_bridges": true,
+  "processing_mode": "memory",
+  "batch_size": null,
+  "enable_reasoning_validation": true,
+  "scale": "SMALL"
+}
+2025-07-29 22:22:38,260 - __main__ - INFO - Phase 1: Attempting to load 2 ontologies...
+2025-07-29 22:22:38,260 - __main__ - INFO - Loading ontology 1/2: father from father.owl
+2025-07-29 22:22:38,275 - __main__ - INFO -   Loaded: 3 concepts, 8 relationships, 0 explicit equivalences
+2025-07-29 22:22:38,275 - __main__ - INFO - Loading ontology 2/2: uncle from uncle.owl
+2025-07-29 22:22:38,280 - __main__ - INFO -   Loaded: 2 concepts, 21 relationships, 0 explicit equivalences
+2025-07-29 22:22:38,280 - __main__ - INFO - Phase 1 complete: Successfully loaded 2 ontologies. Skipped 0 unparsable files.
+2025-07-29 22:22:38,280 - __main__ - INFO - 5 total concepts, 29 total relationships, 0 explicit equivalences found in loaded files.
+2025-07-29 22:22:38,280 - __main__ - INFO - Phase 2: Creating comprehensive concept catalog...
+2025-07-29 22:22:38,280 - __main__ - INFO -   Cataloging concepts from father...
+2025-07-29 22:22:40,217 - __main__ - INFO -   Cataloging concepts from uncle...
+2025-07-29 22:22:40,217 - __main__ - INFO - Phase 2 complete: Cataloged 3 unique concept labels
+2025-07-29 22:22:40,217 - __main__ - INFO - Phase 3: Detecting cross-ontology matches...
+2025-07-29 22:22:40,217 - __main__ - INFO - Phase 3 complete:
+2025-07-29 22:22:40,217 - __main__ - INFO -   - Full cross-ontology matches: 2
+2025-07-29 22:22:40,217 - __main__ - INFO -   - Partial cross-ontology matches: 0
+2025-07-29 22:22:40,217 - __main__ - INFO -   - Unique concepts: 1
+2025-07-29 22:22:40,217 - __main__ - INFO -   - Explicit equivalences found (conceptual merge): 0
+2025-07-29 22:22:40,217 - __main__ - INFO - Phase 4: Creating unified namespace...
+2025-07-29 22:22:40,217 - __main__ - INFO - Phase 4 complete: Created 3 unified concepts
+2025-07-29 22:22:40,217 - __main__ - INFO - Phase 5: Discovering cross-ontology relationships...
+2025-07-29 22:22:40,217 - __main__ - INFO - Phase 5 complete: Discovered 2 relationships
+2025-07-29 22:22:40,217 - __main__ - INFO - Phase 6: Creating bridges and compensation relationships...
+2025-07-29 22:22:40,217 - __main__ - INFO - Phase 6 complete: Created 2 semantic bridges, 0 compensation bridges (Total: 2)
+2025-07-29 22:22:40,217 - __main__ - INFO - Phase 7: Generating unified OWL graph...
+2025-07-29 22:22:40,217 - __main__ - INFO - Phase 7 complete: Generated OWL with 147 triples
+2025-07-29 22:22:40,225 - __main__ - INFO - Phase 8: Saving and validating unified ontology...
+2025-07-29 22:22:40,271 - __main__ - INFO - Running OWL reasoning for enhanced validation via external HermiT process...
+2025-07-29 22:22:40,383 - __main__ - INFO - Invoking HermiT: java -jar C:\Users\srsar\OneDrive\Documents\Desktop\multiToSingleOwl\reasoners\HermiT.jar unified_output.owl
+2025-07-29 22:22:40,595 - __main__ - INFO - HermiT reasoner execution complete. Output logged to hermit_output_b3f42f3a95324e10b4acade656269e1e.txt
+2025-07-29 22:22:40,595 - __main__ - INFO - Validation report saved to: unified_output.validation.json
+2025-07-29 22:22:40,595 - __main__ - INFO - SCW Algorithm completed successfully!
+2025-07-29 22:26:46,511 - __main__ - INFO - SCW Algorithm starting with 2 input files...
+2025-07-29 22:26:46,511 - __main__ - INFO - Auto-configured for SMALL scale processing
+2025-07-29 22:26:46,511 - __main__ - INFO - Starting SCW Algorithm with 2 input files...
+2025-07-29 22:26:46,511 - __main__ - INFO - Configuration: {
+  "similarity_rel_weight": 0.5,
+  "similarity_prop_weight": 0.25,
+  "similarity_sig_weight": 0.15,
+  "similarity_lex_weight": 0.1,
+  "similarity_threshold": 0.2,
+  "bridge_threshold": 0.25,
+  "max_bridges_per_concept": 8,
+  "enable_compensation_bridges": true,
+  "processing_mode": "memory",
+  "batch_size": null,
+  "enable_reasoning_validation": true,
+  "scale": "SMALL"
+}
+2025-07-29 22:26:46,515 - __main__ - INFO - Phase 1: Attempting to load 2 ontologies...
+2025-07-29 22:26:46,515 - __main__ - INFO - Loading ontology 1/2: father from father.owl
+2025-07-29 22:26:46,522 - __main__ - INFO -   Loaded: 3 concepts, 8 relationships, 0 explicit equivalences
+2025-07-29 22:26:46,522 - __main__ - INFO - Loading ontology 2/2: uncle from uncle.owl
+2025-07-29 22:26:46,527 - __main__ - INFO -   Loaded: 2 concepts, 21 relationships, 0 explicit equivalences
+2025-07-29 22:26:46,527 - __main__ - INFO - Phase 1 complete: Successfully loaded 2 ontologies. Skipped 0 unparsable files.
+2025-07-29 22:26:46,527 - __main__ - INFO - 5 total concepts, 29 total relationships, 0 explicit equivalences found in loaded files.
+2025-07-29 22:26:46,527 - __main__ - INFO - Phase 2: Creating comprehensive concept catalog...
+2025-07-29 22:26:46,528 - __main__ - INFO -   Cataloging concepts from father...
+2025-07-29 22:26:48,678 - __main__ - INFO -   Cataloging concepts from uncle...
+2025-07-29 22:26:48,678 - __main__ - INFO - Phase 2 complete: Cataloged 3 unique concept labels
+2025-07-29 22:26:48,678 - __main__ - INFO - Phase 3: Detecting cross-ontology matches...
+2025-07-29 22:26:48,678 - __main__ - INFO - Phase 3 complete:
+2025-07-29 22:26:48,678 - __main__ - INFO -   - Full cross-ontology matches: 2
+2025-07-29 22:26:48,678 - __main__ - INFO -   - Partial cross-ontology matches: 0
+2025-07-29 22:26:48,678 - __main__ - INFO -   - Unique concepts: 1
+2025-07-29 22:26:48,678 - __main__ - INFO -   - Explicit equivalences found (conceptual merge): 0
+2025-07-29 22:26:48,678 - __main__ - INFO - Phase 4: Creating unified namespace...
+2025-07-29 22:26:48,678 - __main__ - INFO - Phase 4 complete: Created 3 unified concepts
+2025-07-29 22:26:48,678 - __main__ - INFO - Phase 5: Discovering cross-ontology relationships...
+2025-07-29 22:26:48,678 - __main__ - INFO - Phase 5 complete: Discovered 2 relationships
+2025-07-29 22:26:48,678 - __main__ - INFO - Phase 6: Creating bridges and compensation relationships...
+2025-07-29 22:26:48,678 - __main__ - INFO - Phase 6 complete: Created 2 semantic bridges, 0 compensation bridges (Total: 2)
+2025-07-29 22:26:48,678 - __main__ - INFO - Phase 7: Generating unified OWL graph...
+2025-07-29 22:26:48,678 - __main__ - INFO - Phase 7 complete: Generated OWL with 147 triples
+2025-07-29 22:26:48,678 - __main__ - INFO - Phase 8: Saving and validating unified ontology...
+2025-07-29 22:26:48,703 - __main__ - INFO - Running OWL reasoning for enhanced validation via external HermiT process...
+2025-07-29 22:26:48,789 - __main__ - INFO - Invoking HermiT: java -jar C:\Users\srsar\OneDrive\Documents\Desktop\multiToSingleOwl\reasoners\HermiT.jar unified_output.owl
+2025-07-29 22:26:48,911 - __main__ - INFO - HermiT reasoner execution complete. Output logged to hermit_reasoning_output.txt
+2025-07-29 22:26:48,911 - __main__ - INFO - Validation report saved to: unified_output.validation.json
+2025-07-29 22:26:48,911 - __main__ - INFO - SCW Algorithm completed successfully!
+2025-07-29 22:27:08,610 - __main__ - INFO - SCW Algorithm starting with 2 input files...
+2025-07-29 22:27:08,610 - __main__ - INFO - Auto-configured for SMALL scale processing
+2025-07-29 22:27:08,610 - __main__ - INFO - Starting SCW Algorithm with 2 input files...
+2025-07-29 22:27:08,610 - __main__ - INFO - Configuration: {
+  "similarity_rel_weight": 0.5,
+  "similarity_prop_weight": 0.25,
+  "similarity_sig_weight": 0.15,
+  "similarity_lex_weight": 0.1,
+  "similarity_threshold": 0.2,
+  "bridge_threshold": 0.25,
+  "max_bridges_per_concept": 8,
+  "enable_compensation_bridges": true,
+  "processing_mode": "memory",
+  "batch_size": null,
+  "enable_reasoning_validation": true,
+  "scale": "SMALL"
+}
+2025-07-29 22:27:08,610 - __main__ - INFO - Phase 1: Attempting to load 2 ontologies...
+2025-07-29 22:27:08,610 - __main__ - INFO - Loading ontology 1/2: father from father.owl
+2025-07-29 22:27:08,620 - __main__ - INFO -   Loaded: 3 concepts, 8 relationships, 0 explicit equivalences
+2025-07-29 22:27:08,620 - __main__ - INFO - Loading ontology 2/2: uncle from uncle.owl
+2025-07-29 22:27:08,623 - __main__ - INFO -   Loaded: 2 concepts, 21 relationships, 0 explicit equivalences
+2025-07-29 22:27:08,623 - __main__ - INFO - Phase 1 complete: Successfully loaded 2 ontologies. Skipped 0 unparsable files.
+2025-07-29 22:27:08,623 - __main__ - INFO - 5 total concepts, 29 total relationships, 0 explicit equivalences found in loaded files.
+2025-07-29 22:27:08,623 - __main__ - INFO - Phase 2: Creating comprehensive concept catalog...
+2025-07-29 22:27:08,623 - __main__ - INFO -   Cataloging concepts from father...
+2025-07-29 22:27:10,259 - __main__ - INFO -   Cataloging concepts from uncle...
+2025-07-29 22:27:10,260 - __main__ - INFO - Phase 2 complete: Cataloged 3 unique concept labels
+2025-07-29 22:27:10,260 - __main__ - INFO - Phase 3: Detecting cross-ontology matches...
+2025-07-29 22:27:10,260 - __main__ - INFO - Phase 3 complete:
+2025-07-29 22:27:10,260 - __main__ - INFO -   - Full cross-ontology matches: 2
+2025-07-29 22:27:10,260 - __main__ - INFO -   - Partial cross-ontology matches: 0
+2025-07-29 22:27:10,260 - __main__ - INFO -   - Unique concepts: 1
+2025-07-29 22:27:10,260 - __main__ - INFO -   - Explicit equivalences found (conceptual merge): 0
+2025-07-29 22:27:10,261 - __main__ - INFO - Phase 4: Creating unified namespace...
+2025-07-29 22:27:10,261 - __main__ - INFO - Phase 4 complete: Created 3 unified concepts
+2025-07-29 22:27:10,261 - __main__ - INFO - Phase 5: Discovering cross-ontology relationships...
+2025-07-29 22:27:10,261 - __main__ - INFO - Phase 5 complete: Discovered 2 relationships
+2025-07-29 22:27:10,261 - __main__ - INFO - Phase 6: Creating bridges and compensation relationships...
+2025-07-29 22:27:10,261 - __main__ - INFO - Phase 6 complete: Created 2 semantic bridges, 0 compensation bridges (Total: 2)
+2025-07-29 22:27:10,261 - __main__ - INFO - Phase 7: Generating unified OWL graph...
+2025-07-29 22:27:10,265 - __main__ - INFO - Phase 7 complete: Generated OWL with 147 triples
+2025-07-29 22:27:10,265 - __main__ - INFO - Phase 8: Saving and validating unified ontology...
+2025-07-29 22:27:10,276 - __main__ - INFO - Running OWL reasoning for enhanced validation via external HermiT process...
+2025-07-29 22:27:10,337 - __main__ - INFO - Invoking HermiT: java -jar C:\Users\srsar\OneDrive\Documents\Desktop\multiToSingleOwl\reasoners\HermiT.jar unified_output.owl
+2025-07-29 22:27:10,467 - __main__ - INFO - HermiT reasoner execution complete. Output logged to hermit_reasoning_output.txt
+2025-07-29 22:27:10,467 - __main__ - INFO - Validation report saved to: unified_output.validation.json
+2025-07-29 22:27:10,467 - __main__ - INFO - SCW Algorithm completed successfully!
+2025-07-29 22:27:16,917 - __main__ - INFO - SCW Algorithm starting with 2 input files...
+2025-07-29 22:27:16,917 - __main__ - INFO - Auto-configured for SMALL scale processing
+2025-07-29 22:27:16,917 - __main__ - INFO - Starting SCW Algorithm with 2 input files...
+2025-07-29 22:27:16,917 - __main__ - INFO - Configuration: {
+  "similarity_rel_weight": 0.5,
+  "similarity_prop_weight": 0.25,
+  "similarity_sig_weight": 0.15,
+  "similarity_lex_weight": 0.1,
+  "similarity_threshold": 0.2,
+  "bridge_threshold": 0.25,
+  "max_bridges_per_concept": 8,
+  "enable_compensation_bridges": true,
+  "processing_mode": "memory",
+  "batch_size": null,
+  "enable_reasoning_validation": true,
+  "scale": "SMALL"
+}
+2025-07-29 22:27:16,917 - __main__ - INFO - Phase 1: Attempting to load 2 ontologies...
+2025-07-29 22:27:16,928 - __main__ - INFO - Loading ontology 1/2: father from father.owl
+2025-07-29 22:27:16,933 - __main__ - INFO -   Loaded: 3 concepts, 8 relationships, 0 explicit equivalences
+2025-07-29 22:27:16,933 - __main__ - INFO - Loading ontology 2/2: uncle from uncle.owl
+2025-07-29 22:27:16,940 - __main__ - INFO -   Loaded: 2 concepts, 21 relationships, 0 explicit equivalences
+2025-07-29 22:27:16,940 - __main__ - INFO - Phase 1 complete: Successfully loaded 2 ontologies. Skipped 0 unparsable files.
+2025-07-29 22:27:16,940 - __main__ - INFO - 5 total concepts, 29 total relationships, 0 explicit equivalences found in loaded files.
+2025-07-29 22:27:16,940 - __main__ - INFO - Phase 2: Creating comprehensive concept catalog...
+2025-07-29 22:27:16,941 - __main__ - INFO -   Cataloging concepts from father...
+2025-07-29 22:27:18,781 - __main__ - INFO -   Cataloging concepts from uncle...
+2025-07-29 22:27:18,781 - __main__ - INFO - Phase 2 complete: Cataloged 3 unique concept labels
+2025-07-29 22:27:18,781 - __main__ - INFO - Phase 3: Detecting cross-ontology matches...
+2025-07-29 22:27:18,781 - __main__ - INFO - Phase 3 complete:
+2025-07-29 22:27:18,781 - __main__ - INFO -   - Full cross-ontology matches: 2
+2025-07-29 22:27:18,781 - __main__ - INFO -   - Partial cross-ontology matches: 0
+2025-07-29 22:27:18,781 - __main__ - INFO -   - Unique concepts: 1
+2025-07-29 22:27:18,781 - __main__ - INFO -   - Explicit equivalences found (conceptual merge): 0
+2025-07-29 22:27:18,781 - __main__ - INFO - Phase 4: Creating unified namespace...
+2025-07-29 22:27:18,781 - __main__ - INFO - Phase 4 complete: Created 3 unified concepts
+2025-07-29 22:27:18,781 - __main__ - INFO - Phase 5: Discovering cross-ontology relationships...
+2025-07-29 22:27:18,781 - __main__ - INFO - Phase 5 complete: Discovered 2 relationships
+2025-07-29 22:27:18,781 - __main__ - INFO - Phase 6: Creating bridges and compensation relationships...
+2025-07-29 22:27:18,781 - __main__ - INFO - Phase 6 complete: Created 2 semantic bridges, 0 compensation bridges (Total: 2)
+2025-07-29 22:27:18,781 - __main__ - INFO - Phase 7: Generating unified OWL graph...
+2025-07-29 22:27:18,797 - __main__ - INFO - Phase 7 complete: Generated OWL with 147 triples
+2025-07-29 22:27:18,797 - __main__ - INFO - Phase 8: Saving and validating unified ontology...
+2025-07-29 22:27:18,812 - __main__ - INFO - Running OWL reasoning for enhanced validation via external HermiT process...
+2025-07-29 22:27:18,907 - __main__ - INFO - Invoking HermiT: java -jar C:\Users\srsar\OneDrive\Documents\Desktop\multiToSingleOwl\reasoners\HermiT.jar unified_output.owl
+2025-07-29 22:27:19,099 - __main__ - INFO - HermiT reasoner execution complete. Output logged to hermit_reasoning_output.txt
+2025-07-29 22:27:19,099 - __main__ - INFO - Validation report saved to: unified_output.validation.json
+2025-07-29 22:27:19,099 - __main__ - INFO - SCW Algorithm completed successfully!
+2025-07-29 22:38:20,757 - __main__ - INFO - SCW Algorithm starting with 2 input files...
+2025-07-29 22:38:20,759 - __main__ - INFO - Auto-configured for SMALL scale processing
+2025-07-29 22:38:20,759 - __main__ - INFO - Starting SCW Algorithm with 2 input files...
+2025-07-29 22:38:20,761 - __main__ - INFO - Configuration: {
+  "similarity_rel_weight": 0.5,
+  "similarity_prop_weight": 0.25,
+  "similarity_sig_weight": 0.15,
+  "similarity_lex_weight": 0.1,
+  "similarity_threshold": 0.2,
+  "bridge_threshold": 0.25,
+  "max_bridges_per_concept": 8,
+  "enable_compensation_bridges": true,
+  "processing_mode": "memory",
+  "batch_size": null,
+  "enable_reasoning_validation": true,
+  "scale": "SMALL"
+}
+2025-07-29 22:38:20,763 - __main__ - INFO - Phase 1: Attempting to load 2 ontologies...
+2025-07-29 22:38:20,763 - __main__ - INFO - Loading ontology 1/2: father from father.owl
+2025-07-29 22:38:20,772 - __main__ - INFO -   Loaded: 3 concepts, 8 relationships, 0 explicit equivalences
+2025-07-29 22:38:20,773 - __main__ - INFO - Loading ontology 2/2: uncle from uncle.owl
+2025-07-29 22:38:20,777 - __main__ - INFO -   Loaded: 2 concepts, 21 relationships, 0 explicit equivalences
+2025-07-29 22:38:20,777 - __main__ - INFO - Phase 1 complete: Successfully loaded 2 ontologies. Skipped 0 unparsable files.
+2025-07-29 22:38:20,777 - __main__ - INFO - 5 total concepts, 29 total relationships, 0 explicit equivalences found in loaded files.
+2025-07-29 22:38:20,778 - __main__ - INFO - Phase 2: Creating comprehensive concept catalog...
+2025-07-29 22:38:20,779 - __main__ - INFO -   Cataloging concepts from father...
+2025-07-29 22:38:22,856 - __main__ - INFO -   Cataloging concepts from uncle...
+2025-07-29 22:38:22,857 - __main__ - INFO - Phase 2 complete: Cataloged 3 unique concept labels
+2025-07-29 22:38:22,857 - __main__ - INFO - Phase 3: Detecting cross-ontology matches...
+2025-07-29 22:38:22,858 - __main__ - INFO - Phase 3 complete:
+2025-07-29 22:38:22,858 - __main__ - INFO -   - Full cross-ontology matches: 2
+2025-07-29 22:38:22,858 - __main__ - INFO -   - Partial cross-ontology matches: 0
+2025-07-29 22:38:22,858 - __main__ - INFO -   - Unique concepts: 1
+2025-07-29 22:38:22,858 - __main__ - INFO -   - Explicit equivalences found (conceptual merge): 0
+2025-07-29 22:38:22,858 - __main__ - INFO - Phase 4: Creating unified namespace...
+2025-07-29 22:38:22,858 - __main__ - INFO - Phase 4 complete: Created 3 unified concepts
+2025-07-29 22:38:22,858 - __main__ - INFO - Phase 5: Discovering cross-ontology relationships...
+2025-07-29 22:38:22,860 - __main__ - INFO - Phase 5 complete: Discovered 2 relationships
+2025-07-29 22:38:22,860 - __main__ - INFO - Phase 6: Creating bridges and compensation relationships...
+2025-07-29 22:38:22,860 - __main__ - INFO - Phase 6 complete: Created 2 semantic bridges, 0 compensation bridges (Total: 2)
+2025-07-29 22:38:22,860 - __main__ - INFO - Phase 7: Generating unified OWL graph...
+2025-07-29 22:38:22,867 - __main__ - INFO - Phase 7 complete: Generated OWL with 147 triples
+2025-07-29 22:38:22,867 - __main__ - INFO - Phase 8: Saving and validating unified ontology...
+2025-07-29 22:38:22,876 - __main__ - INFO - Unified ontology saved to: unified_output.owl
+2025-07-29 22:38:22,877 - __main__ - INFO - Running OWL reasoning for enhanced validation via external HermiT process...
+2025-07-29 22:38:22,975 - __main__ - INFO - Invoking HermiT: java -jar C:\Users\srsar\OneDrive\Documents\Desktop\multiToSingleOwl\reasoners\HermiT.jar unified_output.owl
+2025-07-29 22:38:23,210 - __main__ - INFO - HermiT reasoner execution complete. Output logged to hermit_reasoning_output.txt
+2025-07-29 22:38:23,211 - __main__ - INFO - Validation report saved to: unified_output.validation.json
+2025-07-29 22:38:23,211 - __main__ - INFO - SCW Algorithm completed successfully!
+2025-07-29 22:38:46,234 - __main__ - INFO - SCW Algorithm starting with 2 input files...
+2025-07-29 22:38:46,235 - __main__ - INFO - Auto-configured for SMALL scale processing
+2025-07-29 22:38:46,236 - __main__ - INFO - Starting SCW Algorithm with 2 input files...
+2025-07-29 22:38:46,238 - __main__ - INFO - Configuration: {
+  "similarity_rel_weight": 0.5,
+  "similarity_prop_weight": 0.25,
+  "similarity_sig_weight": 0.15,
+  "similarity_lex_weight": 0.1,
+  "similarity_threshold": 0.2,
+  "bridge_threshold": 0.25,
+  "max_bridges_per_concept": 8,
+  "enable_compensation_bridges": true,
+  "processing_mode": "memory",
+  "batch_size": null,
+  "enable_reasoning_validation": true,
+  "scale": "SMALL"
+}
+2025-07-29 22:38:46,238 - __main__ - INFO - Phase 1: Attempting to load 2 ontologies...
+2025-07-29 22:38:46,239 - __main__ - INFO - Loading ontology 1/2: father from father.owl
+2025-07-29 22:38:46,245 - __main__ - INFO -   Loaded: 3 concepts, 8 relationships, 0 explicit equivalences
+2025-07-29 22:38:46,246 - __main__ - INFO - Loading ontology 2/2: uncle from uncle.owl
+2025-07-29 22:38:46,249 - __main__ - INFO -   Loaded: 2 concepts, 21 relationships, 0 explicit equivalences
+2025-07-29 22:38:46,250 - __main__ - INFO - Phase 1 complete: Successfully loaded 2 ontologies. Skipped 0 unparsable files.
+2025-07-29 22:38:46,250 - __main__ - INFO - 5 total concepts, 29 total relationships, 0 explicit equivalences found in loaded files.
+2025-07-29 22:38:46,250 - __main__ - INFO - Phase 2: Creating comprehensive concept catalog...
+2025-07-29 22:38:46,251 - __main__ - INFO -   Cataloging concepts from father...
+2025-07-29 22:38:48,129 - __main__ - INFO -   Cataloging concepts from uncle...
+2025-07-29 22:38:48,129 - __main__ - INFO - Phase 2 complete: Cataloged 3 unique concept labels
+2025-07-29 22:38:48,129 - __main__ - INFO - Phase 3: Detecting cross-ontology matches...
+2025-07-29 22:38:48,129 - __main__ - INFO - Phase 3 complete:
+2025-07-29 22:38:48,129 - __main__ - INFO -   - Full cross-ontology matches: 2
+2025-07-29 22:38:48,129 - __main__ - INFO -   - Partial cross-ontology matches: 0
+2025-07-29 22:38:48,129 - __main__ - INFO -   - Unique concepts: 1
+2025-07-29 22:38:48,129 - __main__ - INFO -   - Explicit equivalences found (conceptual merge): 0
+2025-07-29 22:38:48,129 - __main__ - INFO - Phase 4: Creating unified namespace...
+2025-07-29 22:38:48,129 - __main__ - INFO - Phase 4 complete: Created 3 unified concepts
+2025-07-29 22:38:48,129 - __main__ - INFO - Phase 5: Discovering cross-ontology relationships...
+2025-07-29 22:38:48,136 - __main__ - INFO - Phase 5 complete: Discovered 2 relationships
+2025-07-29 22:38:48,136 - __main__ - INFO - Phase 6: Creating bridges and compensation relationships...
+2025-07-29 22:38:48,136 - __main__ - INFO - Phase 6 complete: Created 2 semantic bridges, 0 compensation bridges (Total: 2)
+2025-07-29 22:38:48,136 - __main__ - INFO - Phase 7: Generating unified OWL graph...
+2025-07-29 22:38:48,138 - __main__ - INFO - Phase 7 complete: Generated OWL with 147 triples
+2025-07-29 22:38:48,138 - __main__ - INFO - Phase 8: Saving and validating unified ontology...
+2025-07-29 22:38:48,158 - __main__ - INFO - Running OWL reasoning for enhanced validation via external HermiT process...
+2025-07-29 22:38:48,238 - __main__ - INFO - Invoking HermiT: java -jar C:\Users\srsar\OneDrive\Documents\Desktop\multiToSingleOwl\reasoners\HermiT.jar unified_output.owl
+2025-07-29 22:38:48,397 - __main__ - INFO - HermiT reasoner execution complete. Output logged to hermit_reasoning_output.txt
+2025-07-29 22:38:48,398 - __main__ - INFO - Validation report saved to: unified_output.validation.json
+2025-07-29 22:38:48,398 - __main__ - INFO - SCW Algorithm completed successfully!
+2025-07-29 22:42:44,885 - __main__ - INFO - SCW Algorithm starting with 3 input files...
+2025-07-29 22:42:44,885 - __main__ - INFO - Auto-configured for SMALL scale processing
+2025-07-29 22:42:44,886 - __main__ - INFO - Starting SCW Algorithm with 3 input files...
+2025-07-29 22:42:44,887 - __main__ - INFO - Configuration: {
+  "similarity_rel_weight": 0.5,
+  "similarity_prop_weight": 0.25,
+  "similarity_sig_weight": 0.15,
+  "similarity_lex_weight": 0.1,
+  "similarity_threshold": 0.2,
+  "bridge_threshold": 0.25,
+  "max_bridges_per_concept": 8,
+  "enable_compensation_bridges": true,
+  "processing_mode": "memory",
+  "batch_size": null,
+  "enable_reasoning_validation": true,
+  "scale": "SMALL"
+}
+2025-07-29 22:42:44,887 - __main__ - INFO - Phase 1: Attempting to load 3 ontologies...
+2025-07-29 22:42:44,887 - __main__ - INFO - Loading ontology 1/3: action from action.ttl
+2025-07-29 22:42:44,950 - __main__ - INFO -   Loaded: 7 concepts, 40 relationships, 0 explicit equivalences
+2025-07-29 22:42:44,951 - __main__ - INFO - Loading ontology 2/3: analysis from analysis.ttl
+2025-07-29 22:42:44,986 - __main__ - INFO -   Loaded: 5 concepts, 16 relationships, 0 explicit equivalences
+2025-07-29 22:42:44,987 - __main__ - INFO - Loading ontology 3/3: configuration from configuration.ttl
+2025-07-29 22:42:45,034 - __main__ - INFO -   Loaded: 3 concepts, 22 relationships, 0 explicit equivalences
+2025-07-29 22:42:45,034 - __main__ - INFO - Phase 1 complete: Successfully loaded 3 ontologies. Skipped 0 unparsable files.
+2025-07-29 22:42:45,036 - __main__ - INFO - 15 total concepts, 78 total relationships, 0 explicit equivalences found in loaded files.
+2025-07-29 22:42:45,036 - __main__ - INFO - Phase 2: Creating comprehensive concept catalog...
+2025-07-29 22:42:45,037 - __main__ - INFO -   Cataloging concepts from action...
+2025-07-29 22:42:47,394 - __main__ - INFO -   Cataloging concepts from analysis...
+2025-07-29 22:42:47,394 - __main__ - INFO -   Cataloging concepts from configuration...
+2025-07-29 22:42:47,404 - __main__ - INFO - Phase 2 complete: Cataloged 15 unique concept labels
+2025-07-29 22:42:47,404 - __main__ - INFO - Phase 3: Detecting cross-ontology matches...
+2025-07-29 22:42:47,404 - __main__ - INFO - Phase 3 complete:
+2025-07-29 22:42:47,405 - __main__ - INFO -   - Full cross-ontology matches: 0
+2025-07-29 22:42:47,405 - __main__ - INFO -   - Partial cross-ontology matches: 0
+2025-07-29 22:42:47,405 - __main__ - INFO -   - Unique concepts: 15
+2025-07-29 22:42:47,405 - __main__ - INFO -   - Explicit equivalences found (conceptual merge): 0
+2025-07-29 22:42:47,405 - __main__ - INFO - Phase 4: Creating unified namespace...
+2025-07-29 22:42:47,405 - __main__ - INFO - Phase 4 complete: Created 15 unified concepts
+2025-07-29 22:42:47,405 - __main__ - INFO - Phase 5: Discovering cross-ontology relationships...
+2025-07-29 22:42:47,405 - __main__ - INFO - Phase 5 complete: Discovered 17 relationships
+2025-07-29 22:42:47,405 - __main__ - INFO - Phase 6: Creating bridges and compensation relationships...
+2025-07-29 22:42:47,407 - __main__ - INFO - Phase 6 complete: Created 120 semantic bridges, 0 compensation bridges (Total: 120)
+2025-07-29 22:42:47,407 - __main__ - INFO - Phase 7: Generating unified OWL graph...
+2025-07-29 22:42:47,429 - __main__ - INFO - Phase 7 complete: Generated OWL with 1451 triples
+2025-07-29 22:42:47,429 - __main__ - INFO - Phase 8: Saving and validating unified ontology...
+2025-07-29 22:42:47,514 - __main__ - INFO - Running OWL reasoning for enhanced validation via external HermiT process...
+2025-07-29 22:42:47,636 - __main__ - INFO - Invoking HermiT: java -jar C:\Users\srsar\OneDrive\Documents\Desktop\multiToSingleOwl\reasoners\HermiT.jar unified_output.owl
+2025-07-29 22:42:47,786 - __main__ - INFO - HermiT reasoner execution complete. Output logged to hermit_reasoning_output.txt
+2025-07-29 22:42:47,786 - __main__ - INFO - Validation report saved to: unified_output.validation.json
+2025-07-29 22:42:47,786 - __main__ - INFO - SCW Algorithm completed successfully!

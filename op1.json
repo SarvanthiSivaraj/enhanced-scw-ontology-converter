@@ -1,0 +1,45 @@
+{
+  "validation_timestamp": 1753808928.3975475,
+  "input_statistics": {
+    "total_input_files_attempted": 2,
+    "successfully_loaded_ontologies": 2,
+    "unparsable_input_files": [],
+    "original_concepts_from_loaded_files": 5,
+    "original_relationships_from_loaded_files": 29,
+    "explicit_equivalences_found_in_loaded_files": 0
+  },
+  "output_statistics": {
+    "unified_concepts": 3,
+    "total_triples": 147,
+    "cross_relationships": 2,
+    "bridge_relationships": 2,
+    "compensation_bridges": 0,
+    "total_enhancements": 4
+  },
+  "preservation_metrics": {
+    "concept_preservation_rate": 0.6,
+    "concepts_preserved_at_least_one": false,
+    "enhancement_ratio_per_concept": 1.3333
+  },
+  "quality_metrics": {
+    "owl_syntax_valid": false,
+    "owl_errors_and_warnings": [
+      "HermiT reasoner exited with non-zero code (1). Check hermit_reasoning_output.txt for full details."
+    ],
+    "concept_distribution": {
+      "CROSS_ONTOLOGY": 2,
+      "UNIQUE_CONCEPT": 1
+    },
+    "relationship_distribution": {
+      "original_relationships_retained": 2,
+      "explicit_cross_ontology_relationships": 0,
+      "semantic_bridges_created": 2,
+      "compensation_bridges_created": 0
+    }
+  },
+  "completeness_verification": {
+    "all_concepts_unified_or_preserved": true,
+    "cross_ontology_coverage_ratio": 0.6667,
+    "unique_concept_bridge_connectivity_ratio": 1.0
+  }
+}

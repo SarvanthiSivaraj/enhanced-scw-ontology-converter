@@ -1,0 +1,7 @@
+Exception in thread "main" java.lang.IllegalArgumentException: URI is not absolute
+	at java.net.URI.toURL(Unknown Source)
+	at uk.ac.manchester.cs.owl.owlapi.ParsableOWLOntologyFactory.canLoad(ParsableOWLOntologyFactory.java:157)
+	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:875)
+	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:800)
+	at uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl.loadOntology(OWLOntologyManagerImpl.java:758)
+	at org.semanticweb.HermiT.cli.CommandLine.main(Unknown Source)
