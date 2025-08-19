@@ -387,3 +387,54 @@
 2025-07-29 22:42:47,786 - __main__ - INFO - HermiT reasoner execution complete. Output logged to hermit_reasoning_output.txt
 2025-07-29 22:42:47,786 - __main__ - INFO - Validation report saved to: unified_output.validation.json
 2025-07-29 22:42:47,786 - __main__ - INFO - SCW Algorithm completed successfully!
+2025-08-19 12:03:39,739 - __main__ - INFO - SCW Algorithm starting with 3 input files...
+2025-08-19 12:03:39,739 - __main__ - INFO - Auto-configured for SMALL scale processing
+2025-08-19 12:03:39,739 - __main__ - INFO - Starting SCW Algorithm with 3 input files...
+2025-08-19 12:03:39,739 - __main__ - INFO - Configuration: {
+  "similarity_rel_weight": 0.5,
+  "similarity_prop_weight": 0.25,
+  "similarity_sig_weight": 0.15,
+  "similarity_lex_weight": 0.1,
+  "similarity_threshold": 0.2,
+  "bridge_threshold": 0.25,
+  "max_bridges_per_concept": 8,
+  "enable_compensation_bridges": true,
+  "processing_mode": "memory",
+  "batch_size": null,
+  "enable_reasoning_validation": true,
+  "scale": "SMALL"
+}
+2025-08-19 12:03:39,739 - __main__ - INFO - Phase 1: Attempting to load 3 ontologies...
+2025-08-19 12:03:39,739 - __main__ - INFO - Loading ontology 1/3: action from action.ttl
+2025-08-19 12:03:39,800 - __main__ - INFO -   Loaded: 7 concepts, 40 relationships, 0 explicit equivalences
+2025-08-19 12:03:39,800 - __main__ - INFO - Loading ontology 2/3: analysis from analysis.ttl
+2025-08-19 12:03:39,835 - __main__ - INFO -   Loaded: 5 concepts, 16 relationships, 0 explicit equivalences
+2025-08-19 12:03:39,835 - __main__ - INFO - Loading ontology 3/3: configuration from configuration.ttl
+2025-08-19 12:03:39,873 - __main__ - INFO -   Loaded: 3 concepts, 22 relationships, 0 explicit equivalences
+2025-08-19 12:03:39,873 - __main__ - INFO - Phase 1 complete: Successfully loaded 3 ontologies. Skipped 0 unparsable files.
+2025-08-19 12:03:39,873 - __main__ - INFO - 15 total concepts, 78 total relationships, 0 explicit equivalences found in loaded files.
+2025-08-19 12:03:39,873 - __main__ - INFO - Phase 2: Creating comprehensive concept catalog...
+2025-08-19 12:03:39,873 - __main__ - INFO -   Cataloging concepts from action...
+2025-08-19 12:03:41,846 - __main__ - INFO -   Cataloging concepts from analysis...
+2025-08-19 12:03:41,846 - __main__ - INFO -   Cataloging concepts from configuration...
+2025-08-19 12:03:41,846 - __main__ - INFO - Phase 2 complete: Cataloged 15 unique concept labels
+2025-08-19 12:03:41,846 - __main__ - INFO - Phase 3: Detecting cross-ontology matches...
+2025-08-19 12:03:41,846 - __main__ - INFO - Phase 3 complete:
+2025-08-19 12:03:41,846 - __main__ - INFO -   - Full cross-ontology matches: 0
+2025-08-19 12:03:41,846 - __main__ - INFO -   - Partial cross-ontology matches: 0
+2025-08-19 12:03:41,846 - __main__ - INFO -   - Unique concepts: 15
+2025-08-19 12:03:41,846 - __main__ - INFO -   - Explicit equivalences found (conceptual merge): 0
+2025-08-19 12:03:41,846 - __main__ - INFO - Phase 4: Creating unified namespace...
+2025-08-19 12:03:41,846 - __main__ - INFO - Phase 4 complete: Created 15 unified concepts
+2025-08-19 12:03:41,846 - __main__ - INFO - Phase 5: Discovering cross-ontology relationships...
+2025-08-19 12:03:41,846 - __main__ - INFO - Phase 5 complete: Discovered 17 relationships
+2025-08-19 12:03:41,846 - __main__ - INFO - Phase 6: Creating bridges and compensation relationships...
+2025-08-19 12:03:41,856 - __main__ - INFO - Phase 6 complete: Created 120 semantic bridges, 0 compensation bridges (Total: 120)
+2025-08-19 12:03:41,856 - __main__ - INFO - Phase 7: Generating unified OWL graph...
+2025-08-19 12:03:41,873 - __main__ - INFO - Phase 7 complete: Generated OWL with 1451 triples
+2025-08-19 12:03:41,873 - __main__ - INFO - Phase 8: Saving and validating unified ontology...
+2025-08-19 12:03:41,918 - __main__ - INFO - Running OWL reasoning for enhanced validation via external HermiT process...
+2025-08-19 12:03:42,190 - __main__ - INFO - Invoking HermiT: java -jar C:\Users\srsar\OneDrive\Documents\Desktop\multiToSingleOwl\reasoners\HermiT.jar output.owl
+2025-08-19 12:03:42,414 - __main__ - INFO - HermiT reasoner execution complete. Output logged to hermit_reasoning_output.txt
+2025-08-19 12:03:42,414 - __main__ - INFO - Validation report saved to: output.validation.json
+2025-08-19 12:03:42,414 - __main__ - INFO - SCW Algorithm completed successfully!

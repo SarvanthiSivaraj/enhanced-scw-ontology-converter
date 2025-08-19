@@ -1,0 +1,7230 @@
+[
+  {
+    "@id": "http://scw.org/unified#scw_concept_000008",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://scw.org/unified#conceptType": [
+      {
+        "@value": "UNIQUE_CONCEPT"
+      }
+    ],
+    "http://scw.org/unified#coverage": [
+      {
+        "@value": "SINGLE_ONTOLOGY"
+      }
+    ],
+    "http://scw.org/unified#coveragePercentage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "33.333333333333336"
+      }
+    ],
+    "http://scw.org/unified#hasContext": [
+      {
+        "@id": "_:Nd2fc8c3b3c6b44c9b140000066e27f8f"
+      }
+    ],
+    "http://scw.org/unified#hasDiscoveredRelationship": [
+      {
+        "@id": "_:Nc0de184b0c6f488b8dc1735a0f2e9341"
+      }
+    ],
+    "http://scw.org/unified#hasSemanticBridge": [
+      {
+        "@id": "_:Nc1581b17b27b45449f2fc07f5990b8bc"
+      },
+      {
+        "@id": "_:Nd03ba1566d6c4d0fa99fbd18e04217ce"
+      },
+      {
+        "@id": "_:N7db54984956a4bfcace4f7eca415bd23"
+      },
+      {
+        "@id": "_:Nf427c4ffbc644447a2096b544fec0fcc"
+      },
+      {
+        "@id": "_:N587f93bd9cac40d7958851d2f9687fc9"
+      },
+      {
+        "@id": "_:N41a056dd48bb44859f5fc1c52ac38a7e"
+      },
+      {
+        "@id": "_:Nbefd7204bff540eb9d33980e58905cd0"
+      },
+      {
+        "@id": "_:N3a5070b3002e4f05b74552e2b29c6e62"
+      }
+    ],
+    "http://scw.org/unified#matchType": [
+      {
+        "@value": "UNIQUE"
+      }
+    ],
+    "http://scw.org/unified#missingFromOntology": [
+      {
+        "@value": "action"
+      },
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/analysis/Analysis"
+      }
+    ],
+    "http://scw.org/unified#preservationStatus": [
+      {
+        "@value": "DOMAIN_EXCLUSIVE"
+      }
+    ],
+    "http://scw.org/unified#semanticBridge_similarTo": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000007"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000011"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000014"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000015"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000013"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "analysis"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "analysis"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd2fc8c3b3c6b44c9b140000066e27f8f",
+    "@type": [
+      "http://scw.org/unified#ConceptContext"
+    ],
+    "http://scw.org/unified#connectivityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.65"
+      }
+    ],
+    "http://scw.org/unified#domainWeight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.2"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/analysis/Analysis"
+      }
+    ],
+    "http://scw.org/unified#propertyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://scw.org/unified#signature": [
+      {
+        "@value": "58f02016396c58a7"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "analysis"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc0de184b0c6f488b8dc1735a0f2e9341",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "analysis"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc1581b17b27b45449f2fc07f5990b8bc",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd03ba1566d6c4d0fa99fbd18e04217ce",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000007"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7db54984956a4bfcace4f7eca415bd23",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000011"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf427c4ffbc644447a2096b544fec0fcc",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000014"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N587f93bd9cac40d7958851d2f9687fc9",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000015"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N41a056dd48bb44859f5fc1c52ac38a7e",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7352941176470589"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000013"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.75, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbefd7204bff540eb9d33980e58905cd0",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3a5070b3002e4f05b74552e2b29c6e62",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://scw.org/unified#scw_concept_000012",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://scw.org/unified#conceptType": [
+      {
+        "@value": "UNIQUE_CONCEPT"
+      }
+    ],
+    "http://scw.org/unified#coverage": [
+      {
+        "@value": "SINGLE_ONTOLOGY"
+      }
+    ],
+    "http://scw.org/unified#coveragePercentage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "33.333333333333336"
+      }
+    ],
+    "http://scw.org/unified#hasContext": [
+      {
+        "@id": "_:Ne099fe1f24cf4d0fa1ed05e14651ba15"
+      }
+    ],
+    "http://scw.org/unified#hasDiscoveredRelationship": [
+      {
+        "@id": "_:N3e58138eb5394e788b5a1623a903dd5c"
+      },
+      {
+        "@id": "_:N558373bca7b94e88b44583d53c778563"
+      }
+    ],
+    "http://scw.org/unified#hasSemanticBridge": [
+      {
+        "@id": "_:N6663209087a94f6494f7aa3ea16286ee"
+      },
+      {
+        "@id": "_:Ne858b638255e4a9285783a66fb770cf2"
+      },
+      {
+        "@id": "_:N0de97e34478d4194a14739d59b6472b7"
+      },
+      {
+        "@id": "_:Na2e6f339fb604bfab93a4245bb7ec5e2"
+      },
+      {
+        "@id": "_:N4df4df974c7e441688b36e6da624dd72"
+      },
+      {
+        "@id": "_:Nb3d2854cfef848f0a88b1bff5b2f9e60"
+      },
+      {
+        "@id": "_:Nfc9e84d498e24d46a80f9e14541e6ce0"
+      },
+      {
+        "@id": "_:N6c161383d8bb4ec69fa4ff03bc22e6df"
+      }
+    ],
+    "http://scw.org/unified#matchType": [
+      {
+        "@value": "UNIQUE"
+      }
+    ],
+    "http://scw.org/unified#missingFromOntology": [
+      {
+        "@value": "action"
+      },
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/analysis/ArtifactClassificationResultFacet"
+      }
+    ],
+    "http://scw.org/unified#preservationStatus": [
+      {
+        "@value": "DOMAIN_EXCLUSIVE"
+      }
+    ],
+    "http://scw.org/unified#semanticBridge_similarTo": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000009"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "analysis"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "artifactclassificationresultfacet"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#targetClass": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne099fe1f24cf4d0fa1ed05e14651ba15",
+    "@type": [
+      "http://scw.org/unified#ConceptContext"
+    ],
+    "http://scw.org/unified#connectivityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6"
+      }
+    ],
+    "http://scw.org/unified#domainWeight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.133"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/analysis/ArtifactClassificationResultFacet"
+      }
+    ],
+    "http://scw.org/unified#propertyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 2
+      }
+    ],
+    "http://scw.org/unified#signature": [
+      {
+        "@value": "fd5b0e9b28b588d4"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "analysis"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3e58138eb5394e788b5a1623a903dd5c",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#targetClass"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "analysis"
+      }
+    ]
+  },
+  {
+    "@id": "_:N558373bca7b94e88b44583d53c778563",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "analysis"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6663209087a94f6494f7aa3ea16286ee",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne858b638255e4a9285783a66fb770cf2",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0de97e34478d4194a14739d59b6472b7",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na2e6f339fb604bfab93a4245bb7ec5e2",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4df4df974c7e441688b36e6da624dd72",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb3d2854cfef848f0a88b1bff5b2f9e60",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000009"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nfc9e84d498e24d46a80f9e14541e6ce0",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6c161383d8bb4ec69fa4ff03bc22e6df",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://scw.org/unified#scw_concept_000014",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://scw.org/unified#conceptType": [
+      {
+        "@value": "UNIQUE_CONCEPT"
+      }
+    ],
+    "http://scw.org/unified#coverage": [
+      {
+        "@value": "SINGLE_ONTOLOGY"
+      }
+    ],
+    "http://scw.org/unified#coveragePercentage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "33.333333333333336"
+      }
+    ],
+    "http://scw.org/unified#hasContext": [
+      {
+        "@id": "_:N755b7cd5e7ed4827a704b03b76ebe723"
+      }
+    ],
+    "http://scw.org/unified#hasDiscoveredRelationship": [
+      {
+        "@id": "_:Ncdb45a12f64f416da46dfb2503ff21c4"
+      }
+    ],
+    "http://scw.org/unified#hasSemanticBridge": [
+      {
+        "@id": "_:N8d522f720d524519880189e00ff21dde"
+      },
+      {
+        "@id": "_:Nd9162ed2ea2c48dd9137a8f1aaae2720"
+      },
+      {
+        "@id": "_:Nc552e50182034dce8453bd0cabefd02a"
+      },
+      {
+        "@id": "_:Ne86b23a25b994995a7ead8434124e565"
+      },
+      {
+        "@id": "_:N09a5f5a3065e49dd945b8a5d83032a7d"
+      },
+      {
+        "@id": "_:Ndac45ae8538a4c75a8b9474e2f44ef93"
+      },
+      {
+        "@id": "_:Na1e6e74edafe43f69a8f9838dd6ab474"
+      },
+      {
+        "@id": "_:Nd0f1749dfd8242ffa9ac6fcdcf149ab3"
+      }
+    ],
+    "http://scw.org/unified#matchType": [
+      {
+        "@value": "UNIQUE"
+      }
+    ],
+    "http://scw.org/unified#missingFromOntology": [
+      {
+        "@value": "action"
+      },
+      {
+        "@value": "analysis"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/configuration/ConfigurationEntry"
+      }
+    ],
+    "http://scw.org/unified#preservationStatus": [
+      {
+        "@value": "DOMAIN_EXCLUSIVE"
+      }
+    ],
+    "http://scw.org/unified#semanticBridge_similarTo": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000007"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000008"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000011"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000015"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000013"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "configurationentry"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#targetClass": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000014"
+      }
+    ]
+  },
+  {
+    "@id": "_:N755b7cd5e7ed4827a704b03b76ebe723",
+    "@type": [
+      "http://scw.org/unified#ConceptContext"
+    ],
+    "http://scw.org/unified#connectivityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.65"
+      }
+    ],
+    "http://scw.org/unified#domainWeight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.2"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/configuration/ConfigurationEntry"
+      }
+    ],
+    "http://scw.org/unified#propertyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://scw.org/unified#signature": [
+      {
+        "@value": "5feaf1567aeff9a7"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "configuration"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ncdb45a12f64f416da46dfb2503ff21c4",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000014"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#targetClass"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "configuration"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8d522f720d524519880189e00ff21dde",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd9162ed2ea2c48dd9137a8f1aaae2720",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000007"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc552e50182034dce8453bd0cabefd02a",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000008"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne86b23a25b994995a7ead8434124e565",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000011"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N09a5f5a3065e49dd945b8a5d83032a7d",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000015"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndac45ae8538a4c75a8b9474e2f44ef93",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7352941176470589"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000013"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.75, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na1e6e74edafe43f69a8f9838dd6ab474",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd0f1749dfd8242ffa9ac6fcdcf149ab3",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://scw.org/unified#scw_concept_000010",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://scw.org/unified#conceptType": [
+      {
+        "@value": "UNIQUE_CONCEPT"
+      }
+    ],
+    "http://scw.org/unified#coverage": [
+      {
+        "@value": "SINGLE_ONTOLOGY"
+      }
+    ],
+    "http://scw.org/unified#coveragePercentage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "33.333333333333336"
+      }
+    ],
+    "http://scw.org/unified#hasContext": [
+      {
+        "@id": "_:Nc4c381634cd84b1ab7f74f992a33c376"
+      }
+    ],
+    "http://scw.org/unified#hasDiscoveredRelationship": [
+      {
+        "@id": "_:Ne7bbfb0fb1b34ca0a5c4f987080760ef"
+      }
+    ],
+    "http://scw.org/unified#hasSemanticBridge": [
+      {
+        "@id": "_:Nc932ad15022542a984be47b48b9a3096"
+      },
+      {
+        "@id": "_:N45c7234f2b8442efb24ab8da092e9831"
+      },
+      {
+        "@id": "_:N42d199d990914c99b62a1da3be1e1370"
+      },
+      {
+        "@id": "_:N79ae7037c4314787811c02b05fd9a2ac"
+      },
+      {
+        "@id": "_:Nd6beb9d1d68b4f5a9603e35b06fa8ffd"
+      },
+      {
+        "@id": "_:Neb0e679c18204ef7befd177750b72b50"
+      },
+      {
+        "@id": "_:N8d3b8bc42c834c5c97b2d92b4f3a8ec1"
+      },
+      {
+        "@id": "_:Nd75f18ff063c4c40aee8f022e28c4f1a"
+      }
+    ],
+    "http://scw.org/unified#matchType": [
+      {
+        "@value": "UNIQUE"
+      }
+    ],
+    "http://scw.org/unified#missingFromOntology": [
+      {
+        "@value": "action"
+      },
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/analysis/AnalyticResultFacet"
+      }
+    ],
+    "http://scw.org/unified#preservationStatus": [
+      {
+        "@value": "DOMAIN_EXCLUSIVE"
+      }
+    ],
+    "http://scw.org/unified#semanticBridge_similarTo": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000009"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "analysis"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "analyticresultfacet"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#targetClass": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc4c381634cd84b1ab7f74f992a33c376",
+    "@type": [
+      "http://scw.org/unified#ConceptContext"
+    ],
+    "http://scw.org/unified#connectivityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.483"
+      }
+    ],
+    "http://scw.org/unified#domainWeight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.2"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/analysis/AnalyticResultFacet"
+      }
+    ],
+    "http://scw.org/unified#propertyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://scw.org/unified#signature": [
+      {
+        "@value": "8a354ffc9813b151"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "analysis"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne7bbfb0fb1b34ca0a5c4f987080760ef",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#targetClass"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "analysis"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc932ad15022542a984be47b48b9a3096",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N45c7234f2b8442efb24ab8da092e9831",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N42d199d990914c99b62a1da3be1e1370",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N79ae7037c4314787811c02b05fd9a2ac",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd6beb9d1d68b4f5a9603e35b06fa8ffd",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Neb0e679c18204ef7befd177750b72b50",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000009"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8d3b8bc42c834c5c97b2d92b4f3a8ec1",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd75f18ff063c4c40aee8f022e28c4f1a",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://scw.org/unified#scw_concept_000003",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://scw.org/unified#conceptType": [
+      {
+        "@value": "UNIQUE_CONCEPT"
+      }
+    ],
+    "http://scw.org/unified#coverage": [
+      {
+        "@value": "SINGLE_ONTOLOGY"
+      }
+    ],
+    "http://scw.org/unified#coveragePercentage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "33.333333333333336"
+      }
+    ],
+    "http://scw.org/unified#hasContext": [
+      {
+        "@id": "_:N3bafd310372240fb8cef50b5c809fe0d"
+      }
+    ],
+    "http://scw.org/unified#hasDiscoveredRelationship": [
+      {
+        "@id": "_:Nad123f2e790a42efa94f49b7a866ca3a"
+      }
+    ],
+    "http://scw.org/unified#hasSemanticBridge": [
+      {
+        "@id": "_:Nc2e6a539e39b490692f58922ea2fc1c1"
+      },
+      {
+        "@id": "_:N4c96e1ef5b2449deace8622e4016c8ef"
+      },
+      {
+        "@id": "_:Na84c07aa72c74e20ad93bcc9dee0786b"
+      },
+      {
+        "@id": "_:Naac028f82e024f2b93d08fec0da7fb89"
+      },
+      {
+        "@id": "_:N8dd8eb792b83469a98dc610bec7488e8"
+      },
+      {
+        "@id": "_:Necc366d273604ac08bd54606e9448e75"
+      },
+      {
+        "@id": "_:N8d4d9e5f067f44fe8183d3ee3d91d84c"
+      },
+      {
+        "@id": "_:N2f895f840f124de4ab03fc59a4dd36fd"
+      }
+    ],
+    "http://scw.org/unified#matchType": [
+      {
+        "@value": "UNIQUE"
+      }
+    ],
+    "http://scw.org/unified#missingFromOntology": [
+      {
+        "@value": "analysis"
+      },
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/action/ActionEstimationFacet"
+      }
+    ],
+    "http://scw.org/unified#preservationStatus": [
+      {
+        "@value": "DOMAIN_EXCLUSIVE"
+      }
+    ],
+    "http://scw.org/unified#semanticBridge_similarTo": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000009"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "actionestimationfacet"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#targetClass": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3bafd310372240fb8cef50b5c809fe0d",
+    "@type": [
+      "http://scw.org/unified#ConceptContext"
+    ],
+    "http://scw.org/unified#connectivityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6"
+      }
+    ],
+    "http://scw.org/unified#domainWeight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.133"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/action/ActionEstimationFacet"
+      }
+    ],
+    "http://scw.org/unified#propertyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 2
+      }
+    ],
+    "http://scw.org/unified#signature": [
+      {
+        "@value": "3945fac89bc82185"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nad123f2e790a42efa94f49b7a866ca3a",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#targetClass"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc2e6a539e39b490692f58922ea2fc1c1",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4c96e1ef5b2449deace8622e4016c8ef",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na84c07aa72c74e20ad93bcc9dee0786b",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Naac028f82e024f2b93d08fec0da7fb89",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8dd8eb792b83469a98dc610bec7488e8",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000009"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Necc366d273604ac08bd54606e9448e75",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8d4d9e5f067f44fe8183d3ee3d91d84c",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2f895f840f124de4ab03fc59a4dd36fd",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://scw.org/unified#scw_concept_000013",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://scw.org/unified#conceptType": [
+      {
+        "@value": "UNIQUE_CONCEPT"
+      }
+    ],
+    "http://scw.org/unified#coverage": [
+      {
+        "@value": "SINGLE_ONTOLOGY"
+      }
+    ],
+    "http://scw.org/unified#coveragePercentage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "33.333333333333336"
+      }
+    ],
+    "http://scw.org/unified#hasContext": [
+      {
+        "@id": "_:Nbed08b06095545ba9ed2328d3535a488"
+      }
+    ],
+    "http://scw.org/unified#hasDiscoveredRelationship": [
+      {
+        "@id": "_:Na5905ba59173457e9ce8770003ddacb0"
+      }
+    ],
+    "http://scw.org/unified#hasSemanticBridge": [
+      {
+        "@id": "_:N9b21566fd30b484990f861cda954b081"
+      },
+      {
+        "@id": "_:N13f3bea3f05148309fef5b33c4e17ddf"
+      },
+      {
+        "@id": "_:N8ed3e119b482420f81ba8f9a744fefa6"
+      },
+      {
+        "@id": "_:N2fa31a98f3014ef7ab7f28f32911fbda"
+      },
+      {
+        "@id": "_:Nadc34c38d0f64e2eb421a92b3304bcf0"
+      },
+      {
+        "@id": "_:N3ab44ba28da543d0b273768e7e0c1292"
+      },
+      {
+        "@id": "_:N10b5d24eb9414053bb73acab14ee7b6f"
+      },
+      {
+        "@id": "_:Nf6ccda3c15634c0c85990b374df7d58a"
+      }
+    ],
+    "http://scw.org/unified#matchType": [
+      {
+        "@value": "UNIQUE"
+      }
+    ],
+    "http://scw.org/unified#missingFromOntology": [
+      {
+        "@value": "action"
+      },
+      {
+        "@value": "analysis"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/configuration/Configuration"
+      }
+    ],
+    "http://scw.org/unified#preservationStatus": [
+      {
+        "@value": "DOMAIN_EXCLUSIVE"
+      }
+    ],
+    "http://scw.org/unified#semanticBridge_similarTo": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000007"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000008"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000011"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000014"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000015"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#targetClass": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000013"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbed08b06095545ba9ed2328d3535a488",
+    "@type": [
+      "http://scw.org/unified#ConceptContext"
+    ],
+    "http://scw.org/unified#connectivityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7"
+      }
+    ],
+    "http://scw.org/unified#domainWeight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.267"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/configuration/Configuration"
+      }
+    ],
+    "http://scw.org/unified#propertyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 4
+      }
+    ],
+    "http://scw.org/unified#signature": [
+      {
+        "@value": "9c2ea1c6ee57bf3a"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "configuration"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na5905ba59173457e9ce8770003ddacb0",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000013"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#targetClass"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "configuration"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9b21566fd30b484990f861cda954b081",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7352941176470589"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.75, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N13f3bea3f05148309fef5b33c4e17ddf",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7352941176470589"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000007"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.75, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8ed3e119b482420f81ba8f9a744fefa6",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7352941176470589"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000008"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.75, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2fa31a98f3014ef7ab7f28f32911fbda",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7352941176470589"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000011"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.75, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nadc34c38d0f64e2eb421a92b3304bcf0",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7352941176470589"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000014"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.75, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3ab44ba28da543d0b273768e7e0c1292",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7352941176470589"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000015"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.75, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N10b5d24eb9414053bb73acab14ee7b6f",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.5882352941176471"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.5, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf6ccda3c15634c0c85990b374df7d58a",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.5882352941176471"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.5, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://scw.org/unified#scw_concept_000001",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://scw.org/unified#conceptType": [
+      {
+        "@value": "UNIQUE_CONCEPT"
+      }
+    ],
+    "http://scw.org/unified#coverage": [
+      {
+        "@value": "SINGLE_ONTOLOGY"
+      }
+    ],
+    "http://scw.org/unified#coveragePercentage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "33.333333333333336"
+      }
+    ],
+    "http://scw.org/unified#hasContext": [
+      {
+        "@id": "_:Nd307caa19fd349bca26913217fab3398"
+      }
+    ],
+    "http://scw.org/unified#hasDiscoveredRelationship": [
+      {
+        "@id": "_:Ne7d4d0265252428ca57991ead00ec602"
+      }
+    ],
+    "http://scw.org/unified#hasSemanticBridge": [
+      {
+        "@id": "_:N86a9de08d2f744ff8d7057d01c81b2dd"
+      },
+      {
+        "@id": "_:N3b8efd0831ce432fbe62f33f0c9be306"
+      },
+      {
+        "@id": "_:N124e643945904f5a883cc35e6044ffcf"
+      },
+      {
+        "@id": "_:N5bbefc263d06425a854224a13ed193ce"
+      },
+      {
+        "@id": "_:Nfc7085389bf944a094b281037bc828ea"
+      },
+      {
+        "@id": "_:N1ae34872b47e40e9b42e6228a18502b3"
+      },
+      {
+        "@id": "_:Nf7cceeb700a0436299a684e0976413d9"
+      },
+      {
+        "@id": "_:N2e7e0332acd54eb0b3ad2ffe0398b11d"
+      }
+    ],
+    "http://scw.org/unified#matchType": [
+      {
+        "@value": "UNIQUE"
+      }
+    ],
+    "http://scw.org/unified#missingFromOntology": [
+      {
+        "@value": "analysis"
+      },
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/action/Action"
+      }
+    ],
+    "http://scw.org/unified#preservationStatus": [
+      {
+        "@value": "DOMAIN_EXCLUSIVE"
+      }
+    ],
+    "http://scw.org/unified#semanticBridge_similarTo": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000007"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000008"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000011"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000014"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000015"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000013"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "action"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#targetClass": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd307caa19fd349bca26913217fab3398",
+    "@type": [
+      "http://scw.org/unified#ConceptContext"
+    ],
+    "http://scw.org/unified#connectivityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.564"
+      }
+    ],
+    "http://scw.org/unified#domainWeight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.467"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/action/Action"
+      }
+    ],
+    "http://scw.org/unified#propertyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 7
+      }
+    ],
+    "http://scw.org/unified#signature": [
+      {
+        "@value": "d5ccfe3499a91506"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne7d4d0265252428ca57991ead00ec602",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#targetClass"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:N86a9de08d2f744ff8d7057d01c81b2dd",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000007"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3b8efd0831ce432fbe62f33f0c9be306",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000008"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N124e643945904f5a883cc35e6044ffcf",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000011"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5bbefc263d06425a854224a13ed193ce",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000014"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nfc7085389bf944a094b281037bc828ea",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000015"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1ae34872b47e40e9b42e6228a18502b3",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7352941176470589"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000013"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.75, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf7cceeb700a0436299a684e0976413d9",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2e7e0332acd54eb0b3ad2ffe0398b11d",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://scw.org/unified#scw_concept_000009",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://scw.org/unified#conceptType": [
+      {
+        "@value": "UNIQUE_CONCEPT"
+      }
+    ],
+    "http://scw.org/unified#coverage": [
+      {
+        "@value": "SINGLE_ONTOLOGY"
+      }
+    ],
+    "http://scw.org/unified#coveragePercentage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "33.333333333333336"
+      }
+    ],
+    "http://scw.org/unified#hasContext": [
+      {
+        "@id": "_:Nf1c319785b414a139cc0f7d8ad2bef93"
+      }
+    ],
+    "http://scw.org/unified#hasSemanticBridge": [
+      {
+        "@id": "_:N9574f324e56c47a38234cab4c96318ec"
+      },
+      {
+        "@id": "_:Nf06225d9d2154933a9615994b2708e9f"
+      },
+      {
+        "@id": "_:N36a67021fe48436cba492d28f7322513"
+      },
+      {
+        "@id": "_:N67cd51e744cb482580c0570dbf7b37e0"
+      },
+      {
+        "@id": "_:Nb3b06b4e522b4cd583af47eda13c8b60"
+      },
+      {
+        "@id": "_:Na53ca3fbe73041dfbd8872214aa607a4"
+      },
+      {
+        "@id": "_:N83adf558518c4939a310d66993ba054f"
+      },
+      {
+        "@id": "_:Ncf6aa683771949209f62122d6e756f39"
+      }
+    ],
+    "http://scw.org/unified#matchType": [
+      {
+        "@value": "UNIQUE"
+      }
+    ],
+    "http://scw.org/unified#missingFromOntology": [
+      {
+        "@value": "action"
+      },
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/analysis/AnalyticResult"
+      }
+    ],
+    "http://scw.org/unified#preservationStatus": [
+      {
+        "@value": "DOMAIN_EXCLUSIVE"
+      }
+    ],
+    "http://scw.org/unified#semanticBridge_similarTo": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "analysis"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "analyticresult"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf1c319785b414a139cc0f7d8ad2bef93",
+    "@type": [
+      "http://scw.org/unified#ConceptContext"
+    ],
+    "http://scw.org/unified#connectivityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6"
+      }
+    ],
+    "http://scw.org/unified#domainWeight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.133"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/analysis/AnalyticResult"
+      }
+    ],
+    "http://scw.org/unified#propertyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 2
+      }
+    ],
+    "http://scw.org/unified#signature": [
+      {
+        "@value": "c5afb572d2f2d40a"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "analysis"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9574f324e56c47a38234cab4c96318ec",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf06225d9d2154933a9615994b2708e9f",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N36a67021fe48436cba492d28f7322513",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N67cd51e744cb482580c0570dbf7b37e0",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb3b06b4e522b4cd583af47eda13c8b60",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na53ca3fbe73041dfbd8872214aa607a4",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N83adf558518c4939a310d66993ba054f",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ncf6aa683771949209f62122d6e756f39",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://scw.org/unified#scw_concept_000004",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://scw.org/unified#conceptType": [
+      {
+        "@value": "UNIQUE_CONCEPT"
+      }
+    ],
+    "http://scw.org/unified#coverage": [
+      {
+        "@value": "SINGLE_ONTOLOGY"
+      }
+    ],
+    "http://scw.org/unified#coveragePercentage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "33.333333333333336"
+      }
+    ],
+    "http://scw.org/unified#hasContext": [
+      {
+        "@id": "_:N32182a8fdf92470fb72bff51a70184f6"
+      }
+    ],
+    "http://scw.org/unified#hasDiscoveredRelationship": [
+      {
+        "@id": "_:Nfc7cc846c9cc470a85137d143effe09b"
+      }
+    ],
+    "http://scw.org/unified#hasSemanticBridge": [
+      {
+        "@id": "_:N68db3ccf508a4590b212ac3ff4bcb0cd"
+      },
+      {
+        "@id": "_:Nbe3125381ad44e86be6fc201ba7c708e"
+      },
+      {
+        "@id": "_:N424225b7692a4636a148964a57de2fcc"
+      },
+      {
+        "@id": "_:N93b7dd19edf64e67a1d76887195c1909"
+      },
+      {
+        "@id": "_:Na94abdbe21cd4cb78a52ad712b61b8d6"
+      },
+      {
+        "@id": "_:Nc981f97e5f2d4aa789eaa322cdbefd34"
+      },
+      {
+        "@id": "_:N8e721510c5d14542b6b2b4e1fc0b62dc"
+      },
+      {
+        "@id": "_:N5dd6121b425c4d5f8eaeea1447516f35"
+      }
+    ],
+    "http://scw.org/unified#matchType": [
+      {
+        "@value": "UNIQUE"
+      }
+    ],
+    "http://scw.org/unified#missingFromOntology": [
+      {
+        "@value": "analysis"
+      },
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/action/ActionFrequencyFacet"
+      }
+    ],
+    "http://scw.org/unified#preservationStatus": [
+      {
+        "@value": "DOMAIN_EXCLUSIVE"
+      }
+    ],
+    "http://scw.org/unified#semanticBridge_similarTo": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000009"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "actionfrequencyfacet"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#targetClass": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      }
+    ]
+  },
+  {
+    "@id": "_:N32182a8fdf92470fb72bff51a70184f6",
+    "@type": [
+      "http://scw.org/unified#ConceptContext"
+    ],
+    "http://scw.org/unified#connectivityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6"
+      }
+    ],
+    "http://scw.org/unified#domainWeight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.133"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/action/ActionFrequencyFacet"
+      }
+    ],
+    "http://scw.org/unified#propertyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 2
+      }
+    ],
+    "http://scw.org/unified#signature": [
+      {
+        "@value": "4f308fc38b130a18"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nfc7cc846c9cc470a85137d143effe09b",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#targetClass"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:N68db3ccf508a4590b212ac3ff4bcb0cd",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbe3125381ad44e86be6fc201ba7c708e",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N424225b7692a4636a148964a57de2fcc",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N93b7dd19edf64e67a1d76887195c1909",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na94abdbe21cd4cb78a52ad712b61b8d6",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000009"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc981f97e5f2d4aa789eaa322cdbefd34",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8e721510c5d14542b6b2b4e1fc0b62dc",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5dd6121b425c4d5f8eaeea1447516f35",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://scw.org/unified#scw_concept_000011",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://scw.org/unified#conceptType": [
+      {
+        "@value": "UNIQUE_CONCEPT"
+      }
+    ],
+    "http://scw.org/unified#coverage": [
+      {
+        "@value": "SINGLE_ONTOLOGY"
+      }
+    ],
+    "http://scw.org/unified#coveragePercentage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "33.333333333333336"
+      }
+    ],
+    "http://scw.org/unified#hasContext": [
+      {
+        "@id": "_:N4323539532cf480fa8303e806bb9ccc4"
+      }
+    ],
+    "http://scw.org/unified#hasDiscoveredRelationship": [
+      {
+        "@id": "_:Ne7765c8d6c4f4d5ca2543d54a08a3c8b"
+      }
+    ],
+    "http://scw.org/unified#hasSemanticBridge": [
+      {
+        "@id": "_:N8507bac190664cd198ce8a9cd47aaab2"
+      },
+      {
+        "@id": "_:N3fc5b29be3144df9997c3f7976145269"
+      },
+      {
+        "@id": "_:N25a59e41cdcf405cbf38c37394fb1c16"
+      },
+      {
+        "@id": "_:N9e22c2ef98ba4e2686abdebceaaadabc"
+      },
+      {
+        "@id": "_:N28291c30579744ecbd3ae23aa8889289"
+      },
+      {
+        "@id": "_:N7df8bfc7c3144f2da03fbc5161acfe80"
+      },
+      {
+        "@id": "_:N5115f560bcda4d63ba5709d30a9595f6"
+      },
+      {
+        "@id": "_:Nda32d7366be7420e97c50f9c2ec6e432"
+      }
+    ],
+    "http://scw.org/unified#matchType": [
+      {
+        "@value": "UNIQUE"
+      }
+    ],
+    "http://scw.org/unified#missingFromOntology": [
+      {
+        "@value": "action"
+      },
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/analysis/ArtifactClassification"
+      }
+    ],
+    "http://scw.org/unified#preservationStatus": [
+      {
+        "@value": "DOMAIN_EXCLUSIVE"
+      }
+    ],
+    "http://scw.org/unified#semanticBridge_similarTo": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000007"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000008"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000014"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000015"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000013"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "analysis"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "artifactclassification"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#targetClass": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000011"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4323539532cf480fa8303e806bb9ccc4",
+    "@type": [
+      "http://scw.org/unified#ConceptContext"
+    ],
+    "http://scw.org/unified#connectivityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.65"
+      }
+    ],
+    "http://scw.org/unified#domainWeight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.2"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/analysis/ArtifactClassification"
+      }
+    ],
+    "http://scw.org/unified#propertyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://scw.org/unified#signature": [
+      {
+        "@value": "25d397968f88540b"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "analysis"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne7765c8d6c4f4d5ca2543d54a08a3c8b",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000011"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#targetClass"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "analysis"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8507bac190664cd198ce8a9cd47aaab2",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3fc5b29be3144df9997c3f7976145269",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000007"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N25a59e41cdcf405cbf38c37394fb1c16",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000008"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9e22c2ef98ba4e2686abdebceaaadabc",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000014"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N28291c30579744ecbd3ae23aa8889289",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000015"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N7df8bfc7c3144f2da03fbc5161acfe80",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7352941176470589"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000013"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.75, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5115f560bcda4d63ba5709d30a9595f6",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nda32d7366be7420e97c50f9c2ec6e432",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://scw.org/unified#scw_concept_000015",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://scw.org/unified#conceptType": [
+      {
+        "@value": "UNIQUE_CONCEPT"
+      }
+    ],
+    "http://scw.org/unified#coverage": [
+      {
+        "@value": "SINGLE_ONTOLOGY"
+      }
+    ],
+    "http://scw.org/unified#coveragePercentage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "33.333333333333336"
+      }
+    ],
+    "http://scw.org/unified#hasContext": [
+      {
+        "@id": "_:N3ca7c8ea611d4aea8767ec3dbb0de10a"
+      }
+    ],
+    "http://scw.org/unified#hasDiscoveredRelationship": [
+      {
+        "@id": "_:N3f6e5d69fa1b4f33915785f96a36c906"
+      }
+    ],
+    "http://scw.org/unified#hasSemanticBridge": [
+      {
+        "@id": "_:Ndac5da0a8418422e9981332fa722f1f3"
+      },
+      {
+        "@id": "_:N8efaab0495fd4e388bff16daa4e07a7a"
+      },
+      {
+        "@id": "_:N4cdebaed585543d793d9e7aadd32f6cb"
+      },
+      {
+        "@id": "_:Nbfe62d1b9b0c48029e8f9badd9a4b0ab"
+      },
+      {
+        "@id": "_:N0d67bb12f2e649ffadde0a1948f1bc0f"
+      },
+      {
+        "@id": "_:Nb0fd4876652244a6b0cab5005486dd5c"
+      },
+      {
+        "@id": "_:N17198d6cdb534917904d7c3d7feb807f"
+      },
+      {
+        "@id": "_:N8ebb7a3ee36f4270b99553f125b2dee8"
+      }
+    ],
+    "http://scw.org/unified#matchType": [
+      {
+        "@value": "UNIQUE"
+      }
+    ],
+    "http://scw.org/unified#missingFromOntology": [
+      {
+        "@value": "action"
+      },
+      {
+        "@value": "analysis"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/configuration/Dependency"
+      }
+    ],
+    "http://scw.org/unified#preservationStatus": [
+      {
+        "@value": "DOMAIN_EXCLUSIVE"
+      }
+    ],
+    "http://scw.org/unified#semanticBridge_similarTo": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000007"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000008"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000011"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000014"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000013"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "dependency"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#targetClass": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000015"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3ca7c8ea611d4aea8767ec3dbb0de10a",
+    "@type": [
+      "http://scw.org/unified#ConceptContext"
+    ],
+    "http://scw.org/unified#connectivityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.65"
+      }
+    ],
+    "http://scw.org/unified#domainWeight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.2"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/configuration/Dependency"
+      }
+    ],
+    "http://scw.org/unified#propertyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://scw.org/unified#signature": [
+      {
+        "@value": "73d855e023fd55a8"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "configuration"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3f6e5d69fa1b4f33915785f96a36c906",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000015"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#targetClass"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "configuration"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndac5da0a8418422e9981332fa722f1f3",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8efaab0495fd4e388bff16daa4e07a7a",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000007"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4cdebaed585543d793d9e7aadd32f6cb",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000008"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nbfe62d1b9b0c48029e8f9badd9a4b0ab",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000011"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0d67bb12f2e649ffadde0a1948f1bc0f",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000014"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb0fd4876652244a6b0cab5005486dd5c",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7352941176470589"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000013"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.75, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N17198d6cdb534917904d7c3d7feb807f",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8ebb7a3ee36f4270b99553f125b2dee8",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://scw.org/unified#scw_concept_000002",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://scw.org/unified#conceptType": [
+      {
+        "@value": "UNIQUE_CONCEPT"
+      }
+    ],
+    "http://scw.org/unified#coverage": [
+      {
+        "@value": "SINGLE_ONTOLOGY"
+      }
+    ],
+    "http://scw.org/unified#coveragePercentage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "33.333333333333336"
+      }
+    ],
+    "http://scw.org/unified#hasContext": [
+      {
+        "@id": "_:N5f71273fb3be445882fc0784a3813c3a"
+      }
+    ],
+    "http://scw.org/unified#hasDiscoveredRelationship": [
+      {
+        "@id": "_:N5c3d766684cd4bfa877ea20e72ed88db"
+      }
+    ],
+    "http://scw.org/unified#hasSemanticBridge": [
+      {
+        "@id": "_:N17b12ac6a9a84510a010d3ee8bb86d05"
+      },
+      {
+        "@id": "_:N46542dc4ccf14199bb68c76d8120dc11"
+      },
+      {
+        "@id": "_:Nefcea1855fd34b0ebe4c9008fd64ea10"
+      },
+      {
+        "@id": "_:N3129367bf8894194b016ece49f0adf60"
+      },
+      {
+        "@id": "_:N91918d3e0ede47ba86fb1c41cf0c73d3"
+      },
+      {
+        "@id": "_:Nb710b58b6cd44ee48d1f792c1f4073de"
+      },
+      {
+        "@id": "_:N95a02289ec8a47ce93ea340126e0d558"
+      },
+      {
+        "@id": "_:N6467e7cb3aa34f00929e6e63c8eff932"
+      }
+    ],
+    "http://scw.org/unified#matchType": [
+      {
+        "@value": "UNIQUE"
+      }
+    ],
+    "http://scw.org/unified#missingFromOntology": [
+      {
+        "@value": "analysis"
+      },
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/action/ActionArgumentFacet"
+      }
+    ],
+    "http://scw.org/unified#preservationStatus": [
+      {
+        "@value": "DOMAIN_EXCLUSIVE"
+      }
+    ],
+    "http://scw.org/unified#semanticBridge_similarTo": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000009"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "actionargumentfacet"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#targetClass": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5f71273fb3be445882fc0784a3813c3a",
+    "@type": [
+      "http://scw.org/unified#ConceptContext"
+    ],
+    "http://scw.org/unified#connectivityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6"
+      }
+    ],
+    "http://scw.org/unified#domainWeight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.133"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/action/ActionArgumentFacet"
+      }
+    ],
+    "http://scw.org/unified#propertyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 2
+      }
+    ],
+    "http://scw.org/unified#signature": [
+      {
+        "@value": "61dbf1aab4ac92d0"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5c3d766684cd4bfa877ea20e72ed88db",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#targetClass"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:N17b12ac6a9a84510a010d3ee8bb86d05",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N46542dc4ccf14199bb68c76d8120dc11",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nefcea1855fd34b0ebe4c9008fd64ea10",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3129367bf8894194b016ece49f0adf60",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N91918d3e0ede47ba86fb1c41cf0c73d3",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000009"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nb710b58b6cd44ee48d1f792c1f4073de",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N95a02289ec8a47ce93ea340126e0d558",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6467e7cb3aa34f00929e6e63c8eff932",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://scw.org/unified#scw_concept_000005",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://scw.org/unified#conceptType": [
+      {
+        "@value": "UNIQUE_CONCEPT"
+      }
+    ],
+    "http://scw.org/unified#coverage": [
+      {
+        "@value": "SINGLE_ONTOLOGY"
+      }
+    ],
+    "http://scw.org/unified#coveragePercentage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "33.333333333333336"
+      }
+    ],
+    "http://scw.org/unified#hasContext": [
+      {
+        "@id": "_:N54669b7d68eb4d509bebfd5036bcd023"
+      }
+    ],
+    "http://scw.org/unified#hasDiscoveredRelationship": [
+      {
+        "@id": "_:N9e25569fcae64b889b043100f4ffe308"
+      },
+      {
+        "@id": "_:N2e8e607cff6c4c64aa704019e1df720a"
+      }
+    ],
+    "http://scw.org/unified#hasSemanticBridge": [
+      {
+        "@id": "_:N513f05eae23b4f9b9ef81aa3b37fd893"
+      },
+      {
+        "@id": "_:Nc07102e91dcb4a51ae8bfbbd28fb4b0d"
+      },
+      {
+        "@id": "_:Ne9de62cf22e24289abb85cc683e590ac"
+      },
+      {
+        "@id": "_:N82e77e46eb764329aed279209bbc1844"
+      },
+      {
+        "@id": "_:N9ae9ee31f2b24bfd9eea8e478df361ea"
+      },
+      {
+        "@id": "_:Naf9113bff4d740f285ae04c5de6c9966"
+      },
+      {
+        "@id": "_:N1f9c19e4657540538b2435537e8fb4e3"
+      },
+      {
+        "@id": "_:Na3745c2b07fd4097b5177a536f672168"
+      }
+    ],
+    "http://scw.org/unified#matchType": [
+      {
+        "@value": "UNIQUE"
+      }
+    ],
+    "http://scw.org/unified#missingFromOntology": [
+      {
+        "@value": "analysis"
+      },
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/action/ActionLifecycle"
+      }
+    ],
+    "http://scw.org/unified#preservationStatus": [
+      {
+        "@value": "DOMAIN_EXCLUSIVE"
+      }
+    ],
+    "http://scw.org/unified#semanticBridge_similarTo": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000009"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "actionlifecycle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#targetClass": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      }
+    ]
+  },
+  {
+    "@id": "_:N54669b7d68eb4d509bebfd5036bcd023",
+    "@type": [
+      "http://scw.org/unified#ConceptContext"
+    ],
+    "http://scw.org/unified#connectivityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6"
+      }
+    ],
+    "http://scw.org/unified#domainWeight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.133"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/action/ActionLifecycle"
+      }
+    ],
+    "http://scw.org/unified#propertyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 2
+      }
+    ],
+    "http://scw.org/unified#signature": [
+      {
+        "@value": "f20db354b33232b1"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9e25569fcae64b889b043100f4ffe308",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#targetClass"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2e8e607cff6c4c64aa704019e1df720a",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:N513f05eae23b4f9b9ef81aa3b37fd893",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc07102e91dcb4a51ae8bfbbd28fb4b0d",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne9de62cf22e24289abb85cc683e590ac",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N82e77e46eb764329aed279209bbc1844",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9ae9ee31f2b24bfd9eea8e478df361ea",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000009"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Naf9113bff4d740f285ae04c5de6c9966",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1f9c19e4657540538b2435537e8fb4e3",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na3745c2b07fd4097b5177a536f672168",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://scw.org/unified#UnifiedOntology",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology"
+    ],
+    "http://scw.org/unified#generatedOn": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-08-19T12:03:41"
+      }
+    ],
+    "http://scw.org/unified#hasSourceOntology": [
+      {
+        "@id": "_:N3433ac19474248988c7cfd75cb81a59f"
+      },
+      {
+        "@id": "_:N0c34126442da4d6c8af2a646dee88809"
+      },
+      {
+        "@id": "_:N3006ddc795dc4c1b917ece2cdd50456e"
+      }
+    ],
+    "http://scw.org/unified#processingConfiguration": [
+      {
+        "@id": "_:N17b5254a0eec4d5ba024b756f09d1397"
+      }
+    ],
+    "http://scw.org/unified#processingScale": [
+      {
+        "@value": "SMALL"
+      }
+    ],
+    "http://scw.org/unified#processingStatistics": [
+      {
+        "@id": "_:N451a00e2ce174c019a4d082670d1d652"
+      }
+    ],
+    "http://scw.org/unified#successfullyLoadedOntologyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://scw.org/unified#totalInputFilesAttempted": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://scw.org/unified#unifiedConceptCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 15
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Unified ontology created by Semantic Context Weaving algorithm. Designed for ECII processing. Includes robust parsing for input files."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "SCW Unified Ontology"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": "SCW Algorithm Version 2.1"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3433ac19474248988c7cfd75cb81a59f",
+    "@type": [
+      "http://scw.org/unified#SourceOntology"
+    ],
+    "http://scw.org/unified#conceptCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 7
+      }
+    ],
+    "http://scw.org/unified#explicitEquivalencesFound": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#filePath": [
+      {
+        "@value": "action.ttl"
+      }
+    ],
+    "http://scw.org/unified#ontologyId": [
+      {
+        "@value": "action"
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 40
+      }
+    ]
+  },
+  {
+    "@id": "_:N0c34126442da4d6c8af2a646dee88809",
+    "@type": [
+      "http://scw.org/unified#SourceOntology"
+    ],
+    "http://scw.org/unified#conceptCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 5
+      }
+    ],
+    "http://scw.org/unified#explicitEquivalencesFound": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#filePath": [
+      {
+        "@value": "analysis.ttl"
+      }
+    ],
+    "http://scw.org/unified#ontologyId": [
+      {
+        "@value": "analysis"
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 16
+      }
+    ]
+  },
+  {
+    "@id": "_:N3006ddc795dc4c1b917ece2cdd50456e",
+    "@type": [
+      "http://scw.org/unified#SourceOntology"
+    ],
+    "http://scw.org/unified#conceptCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://scw.org/unified#explicitEquivalencesFound": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#filePath": [
+      {
+        "@value": "configuration.ttl"
+      }
+    ],
+    "http://scw.org/unified#ontologyId": [
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 22
+      }
+    ]
+  },
+  {
+    "@id": "_:N17b5254a0eec4d5ba024b756f09d1397",
+    "@type": [
+      "http://scw.org/unified#ProcessingConfiguration"
+    ],
+    "http://scw.org/unified#batch_size": [
+      {
+        "@value": "None"
+      }
+    ],
+    "http://scw.org/unified#bridge_threshold": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 0.25
+      }
+    ],
+    "http://scw.org/unified#enable_compensation_bridges": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://scw.org/unified#enable_reasoning_validation": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://scw.org/unified#max_bridges_per_concept": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 8
+      }
+    ],
+    "http://scw.org/unified#processing_mode": [
+      {
+        "@value": "memory"
+      }
+    ],
+    "http://scw.org/unified#scale": [
+      {
+        "@value": "SMALL"
+      }
+    ],
+    "http://scw.org/unified#similarity_lex_weight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 0.1
+      }
+    ],
+    "http://scw.org/unified#similarity_prop_weight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 0.25
+      }
+    ],
+    "http://scw.org/unified#similarity_rel_weight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 0.5
+      }
+    ],
+    "http://scw.org/unified#similarity_sig_weight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 0.15
+      }
+    ],
+    "http://scw.org/unified#similarity_threshold": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 0.2
+      }
+    ]
+  },
+  {
+    "@id": "_:N451a00e2ce174c019a4d082670d1d652",
+    "@type": [
+      "http://scw.org/unified#ProcessingStatistics"
+    ],
+    "http://scw.org/unified#cross_ontology_matches": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#explicit_equivalences_found": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#partial_matches": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#start_time": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 1755585219.7391934
+      }
+    ],
+    "http://scw.org/unified#total_input_concepts": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 15
+      }
+    ],
+    "http://scw.org/unified#total_input_files_attempted": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://scw.org/unified#total_input_relationships": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 78
+      }
+    ],
+    "http://scw.org/unified#total_unified_concepts": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 15
+      }
+    ],
+    "http://scw.org/unified#unique_concepts": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 15
+      }
+    ]
+  },
+  {
+    "@id": "http://scw.org/unified#scw_concept_000006",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://scw.org/unified#conceptType": [
+      {
+        "@value": "UNIQUE_CONCEPT"
+      }
+    ],
+    "http://scw.org/unified#coverage": [
+      {
+        "@value": "SINGLE_ONTOLOGY"
+      }
+    ],
+    "http://scw.org/unified#coveragePercentage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "33.333333333333336"
+      }
+    ],
+    "http://scw.org/unified#hasContext": [
+      {
+        "@id": "_:N2e7b607a846f42e1b41e5e14fcc8e0d3"
+      }
+    ],
+    "http://scw.org/unified#hasDiscoveredRelationship": [
+      {
+        "@id": "_:N3d728ea2fb3f480c9fa9cbfd092fea7d"
+      },
+      {
+        "@id": "_:N18357ce7f07c43f99bf568794aa46029"
+      }
+    ],
+    "http://scw.org/unified#hasSemanticBridge": [
+      {
+        "@id": "_:Ne126fafb416748a6af0fa62e941eb110"
+      },
+      {
+        "@id": "_:N6cf3f03f94d341abac145f78dfe29901"
+      },
+      {
+        "@id": "_:N2a531d21661e41449adeba7185db0505"
+      },
+      {
+        "@id": "_:N6b1166c94c6c4336ba10f67f15fb311a"
+      },
+      {
+        "@id": "_:N88ddc6e881654d54b41fe2982522483c"
+      },
+      {
+        "@id": "_:Ncd15dc36ded2482aa8641e909d680d06"
+      },
+      {
+        "@id": "_:Ncbf8df676b1b449eaaafb35d110d43db"
+      },
+      {
+        "@id": "_:Ndef5735177b14796977d75ebf96f099d"
+      }
+    ],
+    "http://scw.org/unified#matchType": [
+      {
+        "@value": "UNIQUE"
+      }
+    ],
+    "http://scw.org/unified#missingFromOntology": [
+      {
+        "@value": "analysis"
+      },
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/action/ActionPattern"
+      }
+    ],
+    "http://scw.org/unified#preservationStatus": [
+      {
+        "@value": "DOMAIN_EXCLUSIVE"
+      }
+    ],
+    "http://scw.org/unified#semanticBridge_similarTo": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000009"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "actionpattern"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#targetClass": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2e7b607a846f42e1b41e5e14fcc8e0d3",
+    "@type": [
+      "http://scw.org/unified#ConceptContext"
+    ],
+    "http://scw.org/unified#connectivityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.483"
+      }
+    ],
+    "http://scw.org/unified#domainWeight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.2"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/action/ActionPattern"
+      }
+    ],
+    "http://scw.org/unified#propertyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://scw.org/unified#signature": [
+      {
+        "@value": "f821c755aa50234f"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3d728ea2fb3f480c9fa9cbfd092fea7d",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000006"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#targetClass"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:N18357ce7f07c43f99bf568794aa46029",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne126fafb416748a6af0fa62e941eb110",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6cf3f03f94d341abac145f78dfe29901",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2a531d21661e41449adeba7185db0505",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000004"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N6b1166c94c6c4336ba10f67f15fb311a",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000005"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N88ddc6e881654d54b41fe2982522483c",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000009"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ncd15dc36ded2482aa8641e909d680d06",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000010"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ncbf8df676b1b449eaaafb35d110d43db",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000012"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndef5735177b14796977d75ebf96f099d",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://scw.org/unified#scw_concept_000007",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://scw.org/unified#conceptType": [
+      {
+        "@value": "UNIQUE_CONCEPT"
+      }
+    ],
+    "http://scw.org/unified#coverage": [
+      {
+        "@value": "SINGLE_ONTOLOGY"
+      }
+    ],
+    "http://scw.org/unified#coveragePercentage": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "33.333333333333336"
+      }
+    ],
+    "http://scw.org/unified#hasContext": [
+      {
+        "@id": "_:Nf1dcd84c03774ac59e9a79342e4f685f"
+      }
+    ],
+    "http://scw.org/unified#hasDiscoveredRelationship": [
+      {
+        "@id": "_:N8de77d7e3f224058840180eb749bf3e5"
+      }
+    ],
+    "http://scw.org/unified#hasSemanticBridge": [
+      {
+        "@id": "_:Nfc5cd48a8b8f4d64bbd8d3169c9a251a"
+      },
+      {
+        "@id": "_:Nd4a56355888449878fbade5bd4a61af4"
+      },
+      {
+        "@id": "_:N18ed39dc8eb94cec963e75cac4c2bec0"
+      },
+      {
+        "@id": "_:N43a70063c76f40ffbd7d3634e2eb8058"
+      },
+      {
+        "@id": "_:Na736da29a2c14ed5aa85e548e13ef27e"
+      },
+      {
+        "@id": "_:N3f826ab426644073941001532c840e61"
+      },
+      {
+        "@id": "_:N8084069b7ece4558a0a4fe99779deea2"
+      },
+      {
+        "@id": "_:N490c10d384414afba0be0f17d96664f6"
+      }
+    ],
+    "http://scw.org/unified#matchType": [
+      {
+        "@value": "UNIQUE"
+      }
+    ],
+    "http://scw.org/unified#missingFromOntology": [
+      {
+        "@value": "analysis"
+      },
+      {
+        "@value": "configuration"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/action/ArrayOfAction"
+      }
+    ],
+    "http://scw.org/unified#preservationStatus": [
+      {
+        "@value": "DOMAIN_EXCLUSIVE"
+      }
+    ],
+    "http://scw.org/unified#semanticBridge_similarTo": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000008"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000011"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000014"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000015"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000013"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      },
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "arrayofaction"
+      }
+    ],
+    "http://www.w3.org/ns/shacl#targetClass": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000007"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf1dcd84c03774ac59e9a79342e4f685f",
+    "@type": [
+      "http://scw.org/unified#ConceptContext"
+    ],
+    "http://scw.org/unified#connectivityScore": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.65"
+      }
+    ],
+    "http://scw.org/unified#domainWeight": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.2"
+      }
+    ],
+    "http://scw.org/unified#originalURI": [
+      {
+        "@id": "https://ontology.unifiedcyberontology.org/uco/action/ArrayOfAction"
+      }
+    ],
+    "http://scw.org/unified#propertyCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 0
+      }
+    ],
+    "http://scw.org/unified#relationshipCount": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": 3
+      }
+    ],
+    "http://scw.org/unified#signature": [
+      {
+        "@value": "4867c4ca47cda728"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8de77d7e3f224058840180eb749bf3e5",
+    "@type": [
+      "http://scw.org/unified#DiscoveredRelationship"
+    ],
+    "http://scw.org/unified#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "1.0"
+      }
+    ],
+    "http://scw.org/unified#isCrossOntology": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "http://scw.org/unified#relObject": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000007"
+      }
+    ],
+    "http://scw.org/unified#relPredicate": [
+      {
+        "@id": "http://www.w3.org/ns/shacl#targetClass"
+      }
+    ],
+    "http://scw.org/unified#sourceOntology": [
+      {
+        "@value": "action"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nfc5cd48a8b8f4d64bbd8d3169c9a251a",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000001"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd4a56355888449878fbade5bd4a61af4",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000008"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N18ed39dc8eb94cec963e75cac4c2bec0",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000011"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N43a70063c76f40ffbd7d3634e2eb8058",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000014"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na736da29a2c14ed5aa85e548e13ef27e",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.8823529411764706"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000015"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 1.0, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3f826ab426644073941001532c840e61",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.7352941176470589"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000013"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.75, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8084069b7ece4558a0a4fe99779deea2",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000002"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:N490c10d384414afba0be0f17d96664f6",
+    "@type": [
+      "http://scw.org/unified#SemanticBridge"
+    ],
+    "http://scw.org/unified#bridgeStrength": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.6862745098039216"
+      }
+    ],
+    "http://scw.org/unified#bridgeToConcept": [
+      {
+        "@id": "http://scw.org/unified#scw_concept_000003"
+      }
+    ],
+    "http://scw.org/unified#bridgeType": [
+      {
+        "@value": "SEMANTIC_SIMILARITY"
+      }
+    ],
+    "http://scw.org/unified#discoveryMethod": [
+      {
+        "@value": "semantic_similarity"
+      }
+    ],
+    "http://scw.org/unified#justification": [
+      {
+        "@value": "Predicates: 0.67, Properties: 1.0"
+      }
+    ]
+  }
+]
